@@ -1,4 +1,4 @@
-require spec helper
+require 'spec_helper'
 
 describe ApplicationHelper do 
 	it "should include the page title" do
@@ -13,4 +13,3 @@ describe ApplicationHelper do
 		full_title("").should_not =~ /\|/
 	end
   end
-end
